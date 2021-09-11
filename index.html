@@ -24,7 +24,7 @@
                 <label for="age">Idade</label>
                 <input type="number" name="age" id="age" required>
                 </div>
-                <!--select-->  
+                <!--Qual opção descreve melhor sua função atual?-->  
                 <div class="best-describes">  
                 <label class="best-describes" for="">Qual opção descreve melhor sua função atual?</label>       
                 <select class="best-describes" name="current-role" id="" required>
@@ -35,19 +35,23 @@
                     <option value="Other">Outro</option>
                 </select>
                 </div>
-
-                <div class="recommend-codecamp">
-                <!--marcacao-->
-                <label for="">Você recomendaria CodeDev a um amigo?</label>
-                <label for="">Com certeza</label>
+                <!--Você recomendaria CodeDev a um amigo?-->
+                <div class="recommend-codedev">
+                <label for="recommend-codedev">Você recomendaria CodeDev a um amigo?</label>
+                    <div class="options-recommend">
                 <input type="radio" name="recommend" id="recommend">
-                <label for="">Talvez</label>
+                <label for="sure">Com certeza</label>
+                    </div>
+                    <div class="options-recommend">
                 <input type="radio" name="recommend" id="recommend">
-                <label for="">Não tenho certeza</label>
+                <label for="maybe">Talvez</label>
+                    </div>
+                    <div class="options-recommend">
                 <input type="radio" name="recommend" id="recommend">
+                <label for="not sure">Não tenho certeza</label>
+                    </div>
                 </div>
-
-                <!--favorite-feaature-->
+                <!--Qual é o seu recurso favorito do CodeDev?-->
                 <div class="favorite-feature">
                 <label for="">Qual é o seu recurso favorito do CodeDev?</label>
                 <select name="fav-feature" id="fav-feature" required>
@@ -57,51 +61,64 @@
                     <option value="">Open Source</option>
                 </select>
                 </div>
-                <!--Checkbox-->
-                <p class="like-improved">O que você gostaria de ver melhorado? (Marque todas as opções aplicáveis)</p>
-                    <div class="like-improved">
-                        <input class="like-improved" type="checkbox" name="" id="">
-                        <label class="like-improved" for="">Projetos Front-end</label>
-                        
-                        <input class="like-improved" type="checkbox" name="" id="">
-                        <label class="like-improved" for="">Projetos Back-end</label>
-                        
-                        <input class="like-improved" type="checkbox" name="" id="">
-                        <label class="like-improved" for="">Data Visualization</label>
-                 
-                        <input class="like-improved" type="checkbox" name="" id="">
-                        <label class="like-improved" for="">Desafios</label>
-                
-                        <input class="like-improved" type="checkbox" name="" id="">
-                        <label class="like-improved" for="">Comunidade Open Source</label>
-                
-                        <input class="like-improved" type="checkbox" name="" id="">
-                        <label class="like-improved" for="">Videos</label>
-                    
-                        <input class="like-improved" type="checkbox" name="" id="">
-                        <label class="like-improved" for="">Meetups</label>
-                
-                        <input class="like-improved" type="checkbox" name="" id="">
-                        <label class="like-improved" for="">Wiki</label>
-                    
-                        <input class="like-improved" type="checkbox" name="" id="">
-                        <label class="like-improved" for="">Forum</label>
-                    
-                        <input class="like-improved" type="checkbox" name="" id="">
-                        <label class="like-improved" for="">Cursos</label>
-                
+                <!--O que você gostaria de ver melhorado?-->
+                <div class="like-improved">
+                <label class="like-improved">O que você gostaria de ver melhorado? (Marque todas as opções aplicáveis)</label>
+                        <div class="options-improved">
+                        <input type="checkbox" name="" id="">
+                        <label  for="frontend">Projetos Front-end</label>
+                        </div>
+
+                        <div class="options-improved">
+                        <input type="checkbox" name="" id="">
+                        <label for="backend">Projetos Back-end</label>
+                        </div>
+
+                        <div class="options-improved">
+                        <input  type="checkbox" name="" id="">
+                        <label  for="challenges">Desafios</label>
+                        </div>
+
+                        <div class="options-improved">
+                        <input  type="checkbox" name="" id="">
+                        <label  for="community">Comunidade Open Source</label>
+                        </div>
+
+                        <div class="options-improved">
+                        <input  type="checkbox" name="" id="">
+                        <label  for="checkbox">Videos</label>
+                        </div>
+
+                        <div class="options-improved">
+                        <input  type="checkbox" name="" id="">
+                        <label for="meetups">Meetups</label>
+                        </div>
+
+                        <div class="options-improved">
+                        <input  type="checkbox" name="" id="">
+                        <label  for="wiki">Wiki</label>
+                        </div>
+
+                        <div class="options-improved">
+                        <input type="checkbox" name="" id="">
+                        <label for="forum">Forum</label>
+                        </div>
+
+                        <div class="options-improved">
+                        <input  type="checkbox" name="" id="">
+                        <label  for="">Cursos</label>
+                        </div>
                 </div>
-                <!--textarea-->
+                <!--Algum comentário ou sugestão?-->
                 <div class="comments-suggestions">
-                <label for="">Algum comentário ou sugestão?</label>
-                <textarea name="comments-suggestions" id="comments-suggestions placeholder="Digite aqui um comentário ou sugestão">
-                </textarea>
+                <label for="comments-suggestions">Algum comentário ou sugestão?</label>
+                <textarea placeholder="Digite aqui..."></textarea>
                 </div>
                 <input class="btn" type="submit" value="Enviar">
             </form>
         </main>
         <footer class="">
-
+            <p>Desenvolvido por <a href="https://github.com/tawaramartins">Tawara Martins</a>. Todos os direitos reservados.</p>
         </footer>
     </div>
 </body>
