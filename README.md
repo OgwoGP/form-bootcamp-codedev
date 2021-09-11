@@ -18,7 +18,7 @@
 </h4>
 
 ### 📌 Objetivo 
-<p>Construir um formulário de pesquisa para uma plataforma que ensina programação CodeDev<p>
+<p>Construir um formulário de pesquisa para uma plataforma CodeDev que ensina programação.<p>
 
 ### 🛠 Tecnologias
 
