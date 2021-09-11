@@ -1,4 +1,4 @@
-<h1 align="center">Bootcamp CodeCamp</h1>
+<h1 align="center">Bootcamp CodeDev</h1>
 
 <p align="center">Formulário de pesquisa CodeDev</p>
 
@@ -18,7 +18,7 @@
 </h4>
 
 ### 📌 Objetivo 
-<p>Construir um formulário de pesquisa para uma plataforma que ensina programação CodeDev<p>
+<p>Construir um formulário de pesquisa para uma plataforma CodeDev que ensina programação.<p>
 
 ### 🛠 Tecnologias
 
