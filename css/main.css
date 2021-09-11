@@ -4,15 +4,14 @@
 /* cores */
 :root {
     --color-white: hsl(0, 0%, 96%);
-    --color-blue: hsla(235, 100%, 78%, 1);
-    --color-darkblue: hsla(222, 77%, 33%, 1);
-    --color-black: hsl(197, 100%, 5%);
+    --color-bg: hsl(240, 5%, 18%);
+    --color-btn: hsl(350, 79%, 58%);
 }
 
 
 /* container */
 .container {
-    background: linear-gradient(90deg, var(--color-blue) 0%, var(--color-darkblue) 100%);
+    background: var(--color-bg);
     height: 100%;
 }
 
@@ -92,15 +91,20 @@ div.best-describes {
 }
 
 
-/*Would you recommend CodeCamp to a friend?*/
+/*Você recomendaria CodeDev a um amigo?*/
 
-div.recommend-codecamp {
-    display: inline-block;
+div.recommend-codedev {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     margin: 2rem;
+}
+.options-recommend {
+    display: flex;
 }
 
 
-/*What is your favorite feature of freeCodeCamp?*/
+/*Qual é o seu recurso favorito do CodeDev?*/
 
 div.favorite-feature {
     display: flex;
@@ -116,16 +120,23 @@ div.favorite-feature {
 
 }
 
+/*O que você gostaria de ver melhorado?*/
+
 /*like-improved*/
-
- 
-
-.like-improved {
+div.like-improved {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     margin: 2rem;
-    padding: .5em;
+}
+.options-improved {
+    display: flex;
+}
+label.like-improved {
+    line-height: 1.4;
 }
 
-/*comments-suggestions*/
+/*Algum comentário ou sugestão?*/
 
 div.comments-suggestions {
     display: flex;
@@ -142,10 +153,41 @@ div.comments-suggestions {
 }
 .btn {
     margin: 2rem;
-    padding: .7em;
+    padding: .8em;
     width: 90%;
     cursor: pointer;
-    color: white;
-    background: #248C46;
+    background: var(--color-btn);
     border: 0;
+
+    color: var(--color-white);
+    font-size: 1em;
+    font-weight: 700;
 }
+footer {
+    display: flex;
+}
+
+footer p {
+    text-align: center;
+    color:hsl(0, 0%, 96%);
+    height: 100%;
+    padding: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+footer a {
+    color: var(--color-white);
+}
+
+/*mobile*/
+
+@media (max-width: 530px) {
+    input.btn {
+        width: 80%;
+    }
+}
+@media (max-width: 360px){
+    input.btn {
+        width: 75%;
+    }
+}
+
