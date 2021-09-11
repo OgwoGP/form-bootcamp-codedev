@@ -1,6 +1,6 @@
 <h1 align="center">Bootcamp CodeCamp</h1>
 
-<p align="center">Formulário de pesquisa CodeCamp</p>
+<p align="center">Formulário de pesquisa CodeDev</p>
 
 <p align="center">
  <a href="#objetivo">Objetivo</a> •
@@ -18,7 +18,7 @@
 </h4>
 
 ### 📌 Objetivo 
-<p>Construir um formulário de pesquisa para uma plataforma que ensina programação<p>
+<p>Construir um formulário de pesquisa para uma plataforma que ensina programação CodeDev<p>
 
 ### 🛠 Tecnologias
 
