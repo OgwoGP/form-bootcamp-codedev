@@ -6,9 +6,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/reset.css">
-    <title>Bootcamp CodeCamp</title>
+    <title>Bootcamp CodeDev</title>
 </head>
 <body>
-    
+    <div class="container">
+        <header class="title">
+            <h1 class="title-form">Formulário de pesquisa CodeDev</h1>
+            <p>Obrigado por nos ajudar a melhorar a plataforma</p>
+        </header>
+        <main class="container">
+            <form action="#" method="get">
+            <div class="form-name">
+                <label for="name">Nome</label >
+                <input type="text" name="name" id="name" placeholder="Digite aqui seu nome..." autofocus required>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Digite aqui seu email..." autofocus required>
+                <label for="age">Idade</label>
+                <input type="number" name="age" id="age" required>
+                </div>
+                <!--select-->  
+                <div class="best-describes">  
+                <label class="best-describes" for="">Qual opção descreve melhor sua função atual?</label>       
+                <select class="best-describes" name="current-role" id="" required>
+                    <option value="student">Estudante</option>
+                    <option value="full time job">Trabalho em tempo integral</option>
+                    <option value="full time learner">Aluno em tempo integral</option>
+                    <option value="Prefer not to say">Prefiro não dizer</option>
+                    <option value="Other">Outro</option>
+                </select>
+                </div>
+
+                <div class="recommend-codecamp">
+                <!--marcacao-->
+                <label for="">Você recomendaria CodeDev a um amigo?</label>
+                <label for="">Com certeza</label>
+                <input type="radio" name="recommend" id="recommend">
+                <label for="">Talvez</label>
+                <input type="radio" name="recommend" id="recommend">
+                <label for="">Não tenho certeza</label>
+                <input type="radio" name="recommend" id="recommend">
+                </div>
+
+                <!--favorite-feaature-->
+                <div class="favorite-feature">
+                <label for="">Qual é o seu recurso favorito do CodeDev?</label>
+                <select name="fav-feature" id="fav-feature" required>
+                    <option value="">Desafios</option>
+                    <option value="">Projetos</option>
+                    <option value="">Comunidade</option>
+                    <option value="">Open Source</option>
+                </select>
+                </div>
+                <!--Checkbox-->
+                <p class="like-improved">O que você gostaria de ver melhorado? (Marque todas as opções aplicáveis)</p>
+                    <div class="like-improved">
+                        <input class="like-improved" type="checkbox" name="" id="">
+                        <label class="like-improved" for="">Projetos Front-end</label>
+                        
+                        <input class="like-improved" type="checkbox" name="" id="">
+                        <label class="like-improved" for="">Projetos Back-end</label>
+                        
+                        <input class="like-improved" type="checkbox" name="" id="">
+                        <label class="like-improved" for="">Data Visualization</label>
+                 
+                        <input class="like-improved" type="checkbox" name="" id="">
+                        <label class="like-improved" for="">Desafios</label>
+                
+                        <input class="like-improved" type="checkbox" name="" id="">
+                        <label class="like-improved" for="">Comunidade Open Source</label>
+                
+                        <input class="like-improved" type="checkbox" name="" id="">
+                        <label class="like-improved" for="">Videos</label>
+                    
+                        <input class="like-improved" type="checkbox" name="" id="">
+                        <label class="like-improved" for="">Meetups</label>
+                
+                        <input class="like-improved" type="checkbox" name="" id="">
+                        <label class="like-improved" for="">Wiki</label>
+                    
+                        <input class="like-improved" type="checkbox" name="" id="">
+                        <label class="like-improved" for="">Forum</label>
+                    
+                        <input class="like-improved" type="checkbox" name="" id="">
+                        <label class="like-improved" for="">Cursos</label>
+                
+                </div>
+                <!--textarea-->
+                <div class="comments-suggestions">
+                <label for="">Algum comentário ou sugestão?</label>
+                <textarea name="comments-suggestions" id="comments-suggestions placeholder="Digite aqui um comentário ou sugestão">
+                </textarea>
+                </div>
+                <input class="btn" type="submit" value="Enviar">
+            </form>
+        </main>
+        <footer class="">
+
+        </footer>
+    </div>
 </body>
 </html>

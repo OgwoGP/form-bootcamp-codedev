@@ -1,0 +1,151 @@
+/* fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,400;1,700&display=swap');
+
+/* cores */
+:root {
+    --color-white: hsl(0, 0%, 96%);
+    --color-blue: hsla(235, 100%, 78%, 1);
+    --color-darkblue: hsla(222, 77%, 33%, 1);
+    --color-black: hsl(197, 100%, 5%);
+}
+
+
+/* container */
+.container {
+    background: linear-gradient(90deg, var(--color-blue) 0%, var(--color-darkblue) 100%);
+    height: 100%;
+}
+
+header.title {
+    padding: 27px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header.title h1  {
+    color: var(--color-white);
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+header.title p {
+    color:hsl(0, 0%, 96%);
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.4em;
+}
+/*main*/
+main.container {
+    background: var(--color-white);
+    border-radius: .4em;
+    width: 60%;
+    height: 100%;
+    padding: 1em;
+    margin: auto;
+}
+
+main.container label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+main.container label {
+    color: var(--color-black);
+    font-family: sans-serif;
+    margin: .3rem;
+}
+
+/*name, email, age*/
+
+div.form-name {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem;
+}
+div.form-name input {
+    padding: .5em;
+    border-radius: .3rem;    
+    outline: none;
+    border: 2px solid #DDD;
+
+}
+
+/*placeholder*/
+
+/*best-describes*/
+
+div.best-describes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem;
+
+}
+
+.best-describes select{
+    padding: .5em;
+    border-radius: .3rem;
+    outline: none;
+    border: 2px solid #DDD;
+}
+
+
+/*Would you recommend CodeCamp to a friend?*/
+
+div.recommend-codecamp {
+    display: inline-block;
+    margin: 2rem;
+}
+
+
+/*What is your favorite feature of freeCodeCamp?*/
+
+div.favorite-feature {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem;
+
+}
+.favorite-feature select {
+    padding: .5em;
+    border-radius: .3rem;
+    border: 2px solid #DDD;
+
+}
+
+/*like-improved*/
+
+ 
+
+.like-improved {
+    margin: 2rem;
+    padding: .5em;
+}
+
+/*comments-suggestions*/
+
+div.comments-suggestions {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem;
+}
+.comments-suggestions textarea {
+    width: 100%;
+    height: 10rem;
+    resize: none;
+    border: 2px solid #DDD;
+
+}
+.btn {
+    margin: 2rem;
+    padding: .7em;
+    width: 90%;
+    cursor: pointer;
+    color: white;
+    background: #248C46;
+    border: 0;
+}
