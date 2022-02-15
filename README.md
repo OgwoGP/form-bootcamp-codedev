@@ -17,7 +17,7 @@
 </h4>
 
 ### 📌 Objetivo 
-Construir um formulário de pesquisa para uma plataforma CodeDev que ensina programação.
+Construir um formulário de pesquisa para uma plataforma fictícia chamada CodeDev que ensina programação.
 
 ### 🛠 Tecnologias
 
@@ -36,7 +36,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 A posicionar os elementos de inputs e a labels.
 
 ### 🚀 Desenvolvimento contínuo
-No próximo projeto, pretendo fazer formulário com validação.
+No próximo projeto, pretendo fazer formulário com validação usando JavaScript.
 
 
 ### 📝 Licença 
